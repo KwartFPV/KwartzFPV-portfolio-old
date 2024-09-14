@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rockpapercisor.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Rock-Paper-Scissors</h1>
+
+        <h3><span>Choose !</span></h3>
+
+        <div id="choices">
+            <button onclick="Game('Rock')">👊</button>
+            <button onclick="Game('Paper')">📜</button>
+            <button onclick="Game('Scissors')">✂️</button>
+        </div>
+
+        <div id="player-choice">YOU: </div>
+        <div id="computer-choice">KWARTZ: </div>
+        <div id="resultDisplay"> RESULT </div>
+    </div>
+    <a href="index.html" class="close-button">&times;</a>
+    <script src="rockpapercisor.js"></script>
+    <script>
+        window.onload = function() {
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'F5' || (event.key === 'r' && event.ctrlKey)) {
+                    event.preventDefault();
+                    window.location.href = 'index.html'
+                }
+            });
+        };
+    </script>
+</body>
+</html>

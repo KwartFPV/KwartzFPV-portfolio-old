@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins";
+}
+:root {
+    --bg-color: #080808;
+    --second-bg-color: #101010;
+    --text-color: rgb(255, 255, 255);
+    --main-color: #0c86ea;
+}
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    min-height: 100vw;
+    background: var(--bg-color);
+}
+
+.wrapper{
+    background-color: var(--second-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    border: 5px solid var(--main-color);
+    border-radius: 2rem;
+    padding: 5rem 3rem;
+}
+
+h1{
+    font-size: 8rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    line-height: 1;
+    color: var(--text-color);
+}
+h3{
+    margin: 1rem 0;
+    font-size: 5rem;
+    color: var(--text-color);
+}
+
+span{
+    background: linear-gradient(
+      270deg,
+      #0c86ea 10%,
+      #2161C7 100%
+    );
+    background-clip: text;
+    color: transparent;
+}
+#choices{
+    display: flex;
+    gap: 1rem;
+}
+#choices button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    padding: 1rem;
+    background: transparent;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+    color: var(--main-color);
+    margin: 1rem 0.5rem;
+    transition: 0.3s ease-in-out;
+}
+
+#choices button:hover{
+    color: var(--text-color);
+    background-color: var(--main-color);
+    transform: scale(1.2)translateY(5px);
+    box-shadow: 0 0 25px var(--main-color);
+}
+#player-choice,
+#computer-choice{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+#resultDisplay{
+    font-size: 4rem;
+    color: var(--text-color);
+    border: 2px solid var(--main-color);
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px; 
+    height: 50px; 
+    font-size: 2rem; 
+    color: var(--text-color);
+    text-decoration: none;
+    background-color: var(--main-color);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; 
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.close-button:hover {
+    background-color: #0a6bbd; 
+    transform: scale(1.1); 
+}
