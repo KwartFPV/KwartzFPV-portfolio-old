@@ -340,7 +340,7 @@ section{
   border: 2px solid var(--main-color);
   border-radius: 3rem;
   gap: 2rem;
-  padding: 5rem ;
+  padding: 5rem 2rem;
   overflow: hidden;
   cursor: pointer;
   box-shadow: 0 0 5px var(--main-color);
