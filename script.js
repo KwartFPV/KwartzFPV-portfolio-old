@@ -5,5 +5,5 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x')
     navbar.classList.toggle('active')
 }
-
+document.addEventListener('contextmenu', event => event.preventDefault());
 
