@@ -322,7 +322,18 @@ section{
 
 }
 
-/* Cartes de projet */
+.projects-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem; 
+  padding: 0 2rem; 
+  margin: 0 auto;
+  max-width: 100%; 
+  box-sizing: border-box; 
+  row-gap: 2rem; 
+}
+
 .projects-card {
   flex: 1 1 calc(350px + 2rem); 
   max-width: 350px; 
@@ -332,7 +343,7 @@ section{
   background-color: var(--bg-color);
   border: 2px solid var(--main-color);
   border-radius: 3rem;
-  padding: 2rem 2rem; /* Réduction du padding en haut */
+  padding: 2rem 2rem; 
   overflow: hidden;
   cursor: pointer;
   box-shadow: 0 0 5px var(--main-color);
@@ -345,27 +356,24 @@ section{
   transform: scale(1.02);
 }
 
-/* iFrame */
 .projects-card iframe {
   max-width: 100%;
   border-radius: 2rem;
   object-fit: cover;
   height: auto;
-  margin-top: 0.25rem; /* Réduction de la marge entre l'iframe et le haut de la carte */
-  margin-bottom: 0.75rem; /* Réduction de la marge en bas de l'iframe */
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
 }
 
-/* Titres */
 .projects-card h3 {
   font-size: 3rem;
-  margin-top: 1rem; /* Espacement ajusté au-dessus du titre */
-  margin-bottom: 0.75rem; /* Réduction de la marge entre le titre et le paragraphe */
+  margin-top: 1rem; 
+  margin-bottom: 0.75rem; 
 }
 
-/* Paragraphes */
 .projects-card p {
   font-size: 1.6rem;
-  margin-bottom: 1.5rem; /* Légère marge sous le paragraphe */
+  margin-bottom: 1.5rem; 
 }
 
 .contact{
