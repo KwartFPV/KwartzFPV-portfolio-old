@@ -327,21 +327,21 @@ section{
   flex-wrap: wrap;
   justify-content: center;
   gap: 3rem;
-  padding: 0 2rem;
+  padding: 0 2rem; /* Ajout de padding pour éviter l'espacement */
+  margin: 0 auto; /* Centrage de la section */
+  max-width: 100%; /* Limite la largeur au total disponible */
+  box-sizing: border-box; /* S'assure que le padding ne cause pas de débordement */
 }
 
-.project-card {
-  flex: 1 1 calc(25% - 2rem); /* Les boîtes occupent 25% de l'espace, ajusté avec une marge */
-  max-width: 350px; /* Limite maximale pour éviter qu'elles deviennent trop grandes */
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.projects-card {
+  flex: 1 1 calc(350px + 2rem); /* Ajuste les cartes pour qu'elles aient une taille flexible */
+  max-width: 350px; /* Max-width reste fixe pour éviter qu'elles deviennent trop grandes */
+  margin: 0 auto; /* Centrage des cartes */
+  box-sizing: border-box; /* Pour que padding et border soient inclus dans la taille */
+  text-align: center;
   background-color: var(--bg-color);
   border: 2px solid var(--main-color);
   border-radius: 3rem;
-  gap: 2rem;
   padding: 5rem 2rem;
   overflow: hidden;
   cursor: pointer;
