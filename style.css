@@ -365,6 +365,16 @@ section{
   margin-bottom: 0.75rem;
 }
 
+.projects-card img {
+  width: 100%;
+  max-width: 250px; /* Taille plus petite */
+  height: auto;
+  border-radius: 2rem;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
 .projects-card h3 {
   font-size: 3rem;
   margin-top: 1rem; 
