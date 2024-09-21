@@ -365,9 +365,9 @@ section{
   margin-bottom: 0.75rem;
 }
 
-.projects-card img{
+.projects-card img {
   width: 100%;
-  max-width: 250px; /* Taille plus petite */
+  max-width: 250px; /* Réduction de la taille maximale */
   height: auto;
   border-radius: 2rem;
   object-fit: cover;
