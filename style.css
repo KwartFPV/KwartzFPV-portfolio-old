@@ -326,15 +326,16 @@ section{
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem; /* Réduit l'espacement horizontal */
-  padding: 1rem 3rem; 
+  padding: 1rem 1rem; /* Réduit le padding horizontal sur mobile */
   margin: 0 auto;
+  width: 100%; /* S'assure que la largeur est à 100% */
   max-width: 100%; 
   box-sizing: border-box; 
   row-gap: 1.5rem; /* Réduit l'espacement vertical */
 }
 
 .projects-card {
-  flex: 1 1 calc(350px + 2rem); 
+  flex: 1 1 calc(100% - 2rem); /* S'assure que les cartes prennent toute la largeur sur mobile */
   max-width: 350px; 
   margin: 0 auto; 
   box-sizing: border-box; 
@@ -348,6 +349,12 @@ section{
   box-shadow: 0 0 5px var(--main-color);
   transition: 0.3s ease;
   margin-bottom: 2rem; /* Ajoute de l'espace en bas des cartes */
+}
+@media (max-width: 600px) {
+  .projects-card {
+    flex: 1 1 100%; /* Prend toute la largeur de l'écran */
+    max-width: 100%; /* S'assure que les cartes ne dépassent pas la largeur de l'écran */
+  }
 }
 
 .projects-card:hover {
