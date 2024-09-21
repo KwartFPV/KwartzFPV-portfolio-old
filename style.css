@@ -326,7 +326,7 @@ section{
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem; 
-  padding: 1rem 6rem 3rem 0rem; 
+  padding: 1rem 3rem ; 
   margin: 0 auto;
   max-width: 100%; 
   box-sizing: border-box; 
