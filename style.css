@@ -328,6 +328,8 @@ section{
   place-items: center;
   gap: 3rem;
   row-gap: 5rem;
+  margin: 0 auto;
+  max-width: auto;
 }
 
 .projects-card{
@@ -345,6 +347,7 @@ section{
   cursor: pointer;
   box-shadow: 0 0 5px var(--main-color);
   transition: 0.3s ease;
+  max-width: 100%;
 }
 
 .projects-card:hover{
@@ -360,9 +363,10 @@ section{
 }
 
 .projects-card iframe{
-  max-width: 300px;
+  max-width: 100%;
   border-radius: 2rem;
   object-fit: cover;
+  height: auto;
 }
 .projects-card h3{
   font-size: 3rem;
