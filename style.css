@@ -322,16 +322,17 @@ section{
 
 }
 
+/* Conteneur principal */
 .projects-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5rem; /* Réduction de l'écart horizontal entre les cartes */
+  gap: 1.5rem; /* Espace horizontal entre les cartes */
   padding: 0 2rem; 
   margin: 0 auto;
   max-width: 100%; 
   box-sizing: border-box; 
-  row-gap: 2.5rem; /* Plus d'espace vertical entre les cartes */
+  row-gap: 2rem; /* Ajustement de l'espace vertical entre les cartes */
 }
 
 /* Cartes de projet */
@@ -344,7 +345,7 @@ section{
   background-color: var(--bg-color);
   border: 2px solid var(--main-color);
   border-radius: 3rem;
-  padding: 3rem 2rem; /* Réduction du padding en haut */
+  padding: 2.5rem 2rem; /* Réduction du padding en haut */
   overflow: hidden;
   cursor: pointer;
   box-shadow: 0 0 5px var(--main-color);
@@ -374,20 +375,21 @@ section{
   border-radius: 2rem;
   object-fit: cover;
   height: auto;
-  margin-top: 1rem; /* Réduction de l'espacement au-dessus de l'iframe */
-  margin-bottom: 2rem; /* Ajout d'un espacement en bas de l'iframe */
+  margin-top: 0.5rem; /* Réduction de la marge entre la vidéo et le titre */
+  margin-bottom: 1rem; /* Marge ajustée en bas de l'iframe */
 }
 
 /* Titres */
 .projects-card h3 {
   font-size: 3rem;
-  margin-top: 2rem; /* Ajout d'un espacement au-dessus des titres */
+  margin-top: 1.5rem; /* Espacement ajusté au-dessus du titre */
+  margin-bottom: 1rem; /* Ajustement de la marge entre le titre et le paragraphe */
 }
 
 /* Paragraphes */
 .projects-card p {
   font-size: 1.6rem;
-  margin-bottom: 2rem; /* Ajout d'un espacement en bas des paragraphes */
+  margin-bottom: 1.5rem; /* Légère marge sous le paragraphe */
 }
 .contact{
   background-color: var(--bg-color);
