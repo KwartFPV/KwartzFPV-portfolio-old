@@ -329,7 +329,8 @@ section{
   gap: 3rem;
   row-gap: 5rem;
   margin: 0 auto;
-  max-width: auto;
+  width: auto;
+  padding: 0 2rem;
 }
 
 .projects-card{
