@@ -251,7 +251,6 @@ section{
   background-color: var(--bg-color);
 }
 
-
 .heading{
   text-align: center;
   font-size: 7rem;
@@ -327,7 +326,7 @@ section{
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem; 
-  padding: 0 2rem; 
+  padding: 1rem 3rem; 
   margin: 0 auto;
   max-width: 100%; 
   box-sizing: border-box; 
@@ -367,7 +366,7 @@ section{
 
 .projects-card img {
   width: 100%;
-  max-width: 250px; /* Réduction de la taille maximale */
+  max-width: 250px;
   height: auto;
   border-radius: 2rem;
   object-fit: cover;
