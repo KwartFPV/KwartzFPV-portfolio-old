@@ -333,6 +333,7 @@ section{
   box-sizing: border-box; 
 }
 
+/* Cartes de projet */
 .projects-card {
   flex: 1 1 calc(350px + 2rem); 
   max-width: 350px; 
@@ -349,15 +350,16 @@ section{
   transition: 0.3s ease;
 }
 
-.projects-card:hover{
+.projects-card:hover {
   box-shadow: 0 0 25px var(--main-color),
               0 0 50px var(--main-color);
   transform: scale(1.02);
 }
 
+/* Images */
 .projects-card img {
   width: 100%;
-  max-width: 300px; 
+  max-width: 250px; /* Réduction de la taille maximale */
   height: auto;
   border-radius: 2rem;
   object-fit: cover;
@@ -365,18 +367,24 @@ section{
   margin: 0 auto;
 }
 
-.projects-card iframe{
+/* iFrame */
+.projects-card iframe {
   max-width: 100%;
   border-radius: 2rem;
   object-fit: cover;
   height: auto;
+  margin-top: 1rem; /* Réduction de l'espacement en haut */
 }
-.projects-card h3{
+
+/* Titres */
+.projects-card h3 {
   font-size: 3rem;
 }
 
-.projects-card p{
+/* Paragraphes */
+.projects-card p {
   font-size: 1.6rem;
+  padding-bottom: 1.5rem; /* Ajout d'espacement en bas des paragraphes */
 }
 
 .contact{
