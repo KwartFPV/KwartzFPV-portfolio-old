@@ -323,12 +323,13 @@ section{
 }
 
 .projects-box{
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   place-items: center;
   gap: 3rem;
   row-gap: 5rem;
-  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects-card{
