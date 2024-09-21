@@ -272,10 +272,10 @@ section{
   gap: 2.5rem;
 }
 
-.drones-box{
-  flex: 1 1 calc(350px + 2rem);
+.drones-box{ 
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   background-color: var(--main-color);
   height: 600px;
