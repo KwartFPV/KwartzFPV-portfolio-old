@@ -3,7 +3,7 @@
   <url>
     <loc>https://kwartzfpv.netlify.app/</loc> <!-- Remplace cette URL par la tienne -->
     <lastmod>2024-09-29</lastmod> <!-- Date de dernière modification au format YYYY-MM-DD -->
-    <changefreq>monthly</changefreq> <!-- Fréquence de changement : daily, weekly, monthly, yearly -->
+    <changefreq>weekly</changefreq> <!-- Fréquence de changement : daily, weekly, monthly, yearly -->
     <priority>1.0</priority> <!-- Priorité de la page (entre 0.0 et 1.0) -->
   </url>
 </urlset>
