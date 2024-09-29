@@ -25,15 +25,26 @@ Kwartz FPV Projects
 
 📂 Project Structure : 
 
- ├── index.html        # Main homepage
- ├── styles.css        # Primary stylesheet
- ├── scripts.js        # JavaScript for interactions and the mini-game
- ├── assets/           # Folder containing images, videos, and other media
- ├── README.md         # The file you’re reading right now
-
+-  ├── index.html        # Main homepage
+ 
+-  ├── styles.css        # Primary stylesheet
+ 
+-  ├── scripts.js        # JavaScript for interactions and the mini-game
+ 
+-  ├── assets/           # Folder containing images, videos, and other media
+ 
+-  ├── README.md         # The file you’re reading right now
+ 
+-  ├── rockpaperscissors.html        # Rock Paper Scissors mini game html
+ 
+-  ├── rockpapercisor.js        # Rock Paper Scissors mini game js
+ 
+-  ├── rockpapercisor.css       # Rock Paper Scissors mini game css
+ 
+ 
 🌐 Live Site
 
- The website is currently hosted on GitHub Pages and will be migrated to Odoo soon.
+ The website is currently hosted on GitHub Pages and will be migrated in hebergeur soon
 
 📝 Contributions
 
