@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kwartzfpv.netlify.app</loc>
-    <lastmod>2024-09-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://kwartzfpv.netlify.app/</loc> <!-- Remplace cette URL par la tienne -->
+    <lastmod>2024-09-29</lastmod> <!-- Date de dernière modification au format YYYY-MM-DD -->
+    <changefreq>monthly</changefreq> <!-- Fréquence de changement : daily, weekly, monthly, yearly -->
+    <priority>1.0</priority> <!-- Priorité de la page (entre 0.0 et 1.0) -->
   </url>
 </urlset>
