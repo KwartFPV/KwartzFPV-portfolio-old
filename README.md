@@ -55,5 +55,5 @@ KWARTZ FPV PROJECTS
  If you have any questions or suggestions, feel free to reach out to me via:
 
  - Email: thomfpv@gmail.com
- - GitHub: @kwartzfpv
+ - Instagram : @kwartz_fpv
  - YouTube: Kwartz_fpv
