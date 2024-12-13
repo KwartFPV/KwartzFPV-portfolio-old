@@ -21,7 +21,6 @@ KWARTZ FPV PROJECTS
  - HTML5
  - CSS3
  - JavaScript
- - Odoo (upcoming hosting platform)
 
 📂 Project Structure : 
 
