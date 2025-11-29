@@ -1,4 +1,5 @@
-KWARTZ FPV PROJECTS
+UPDATED !!! 
+Check the new repo !
 
  Welcome to the Kwartz FPV Projects repository! This project contains my FPV footage, my website developments, and resources related to freestyle FPV drones.
 
